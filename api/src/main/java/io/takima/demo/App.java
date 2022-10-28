@@ -45,7 +45,7 @@ public class App implements CommandLineRunner, RepositoryRestConfigurer {
 
     @Override
     public void run(String... args) throws Exception {
-        Cv cv = new Cv();
+       /* Cv cv = new Cv();
         cv.setPrenom("toto");
         cv.setNom("toto");
         cv.setTelephone("toto");
@@ -64,6 +64,6 @@ public class App implements CommandLineRunner, RepositoryRestConfigurer {
 
         cv.setExperiences(experiences);
 
-        cvRepository.save(cv);
+        cvRepository.save(cv);*/
     }
 }

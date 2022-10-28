@@ -8,7 +8,7 @@ import java.util.Optional;
 
 @RepositoryRestResource
 @CrossOrigin("*")
-public interface UserRepository extends JpaRepository <Utilisateur,Long> {
+public interface UserRepository extends JpaRepository<Utilisateur,Long> {
 
     Optional<Utilisateur> findByEmail(String email);
 }
